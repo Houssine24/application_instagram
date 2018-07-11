@@ -1,0 +1,31 @@
+11 juillet 2018					www.instakilo.com        				USERS STORIES
+
+En tant que...          Je veux que...                				Afin de...afin que...
+
+
+user			mon site soit opensource				le code source du site soit public
+
+user			mon site soit administrable				pouvoir le modifier à ma guise
+
+user			mon site ressemble à Instagram				récupérer l’identité graphique afin qu'elle soit up to date
+
+user			mon site soit responsive				le site soit utilisable sur n’importe quel support mobile
+
+user			la photo de l’auteur soit ronde				différencier l’auteur des photos du contenu
+
+user			mon site comporte des couleurs neutres			valoriser visuellement le contenu
+
+user			l'on puisse auto-modérer les commentaires		limiter les abus de langage
+
+user			mon site soit irréprochable d'un point de		favoriser une bonne réputation
+			vue orthographique, grammatical et lexical
+										
+user			l’utilisateur puisse liker chaque photo			l'on améliore la popularité et qu'on puisse afficher sur 
+										le profil le nombre de likes
+
+user			l’utilisateur puisse commenter chaque photo		l'on améliore la popularité et permettre l'affichage
+										sur le profil des meilleures photos
+
+user			l'on puisse télécharger mon contenu photos		pouvoir les publier et les archiver rapidement
+
+
