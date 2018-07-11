@@ -6,11 +6,12 @@ function ajouterPhoto(){
 	{
 		var photo = [];
 	}
-	photo.push($("#divPhoto").val());
+	photo.push($("#inPhoto").val());
 	for (var i = 0; i < photo.length; i++)
 		window.localStorage.setItem("galerie", JSON.stringify(photo));
 	{
-		$("#divPhoto").show();  
+		$("#divPhoto").append(photo);
+		console.log(photo);  
 	}
 };
 
@@ -20,11 +21,3 @@ $("#buttonAjout").click(function(){
 	$("#divPhoto").show();
 });
 
-
-
-//function pour commenter les differentes photos.
-function commenterPhoto(){
-	var commantaire = $("#input").val();
-
-
-};
