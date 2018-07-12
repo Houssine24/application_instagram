@@ -1,4 +1,6 @@
 
+
+console.log("hello");
 //fonction qui ajoute les photos dans le localstorage et qui les affiche pr l'user.
 function ajouterPhoto(){
 	var photo = JSON.parse(window.localStorage.getItem("galerie"));

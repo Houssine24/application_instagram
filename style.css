@@ -2,3 +2,21 @@
 	margin-right: 380px;
 	background-color: white;
 }
+
+#nom{
+	margin-left: 300px;
+	padding-top: 100px;
+}
+
+
+#photo
+{
+	margin-left: 100px;
+	background-repeat: no-repeat;
+	margin-top: -100px;
+}
+
+#logo{
+	margin-left: 500px;
+	margin-top: -200px;
+}
