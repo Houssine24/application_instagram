@@ -13,11 +13,44 @@
 {
 	margin-left: 100px;
 	background-repeat: no-repeat;
-	margin-top:-80px;
+	margin-top:-100px;
 }
 
 #logo{
 	margin-left: 500px;
-	margin-top: -200px;
+	margin-top: -320px;
 
+}
+
+#coeur{
+	margin-left: 10px;
+}
+
+#photoaccueil{
+	margin-top: 250px;
+	margin-left: 50px;
+	
+}
+
+.i{
+	margin-right: 10px;
+}
+
+
+#setting {
+    width: 40px;
+    height: auto;
+    background-color: white;
+    border-radius: 27%;
+    cursor: pointer;
+    outline: none;
+        
+}#reglage {
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;}#button {
+    margin-left: 94%;
+    margin-top: -250px;
 }
