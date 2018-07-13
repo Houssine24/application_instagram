@@ -17,7 +17,7 @@
 }
 
 #logo{
-	margin-left: 500px;
+	margin-left: 370px;
 	margin-top: -320px;
 
 }
@@ -27,7 +27,7 @@
 }
 
 #photoaccueil{
-	margin-top: 250px;
+	margin-top: 50px;
 	margin-left: 50px;
 	
 }
@@ -44,13 +44,23 @@
     border-radius: 27%;
     cursor: pointer;
     outline: none;
-        
-}#reglage {
+}
+
+#btnGroupDrop1 {
     border-radius: 50%;
     background-color: white;
     border: none;
     cursor: pointer;
-    outline: none;}#button {
-    margin-left: 94%;
-    margin-top: -250px;
+    outline: none;
 }
+
+#reglage {
+    margin-left: 95%;
+    margin-top: -490px;
+}
+
+#menu{
+	box-shadow: 0 12px 16px 0 #000, 0 17px 70px 0 #000;
+}
+
+
