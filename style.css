@@ -17,13 +17,14 @@
 }
 
 #logo{
-	margin-left: 500px;
-	margin-top: -320px;
+	margin-left: 370px;
+	margin-top: -300px;
 
 }
 
 #coeur{
 	margin-left: 10px;
+	margin-top: -20px;
 }
 
 #photoaccueil{
@@ -36,21 +37,43 @@
 	margin-right: 10px;
 }
 
+#inPhoto {
+	margin-top: 50px;
+}
+
+#divPhoto {
+	margin-left: 35px;
+	margin-right: 0px;
+	margin-bottom: 50px;
+}
+
+img {
+	margin-top: 33.5px;
+	margin-right: 33.5px;
+}
 
 #setting {
-    width: 40px;
-    height: auto;
-    background-color: white;
-    border-radius: 27%;
-    cursor: pointer;
-    outline: none;
-        
-}#reglage {
-    border-radius: 50%;
-    background-color: white;
-    border: none;
-    cursor: pointer;
-    outline: none;}#button {
-    margin-left: 94%;
-    margin-top: -250px;
+	width: 40px;
+	height: auto;
+	background-color: white;
+	border-radius: 27%;
+	cursor: pointer;
+	outline: none;
+}
+
+#btnGroupDrop1 {
+	border-radius: 50%;
+	background-color: white;
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
+
+#reglage {
+	margin-left: 95%;
+	margin-top: -550px;
+}
+
+#menu{
+	box-shadow: 0 12px 16px 0 #000, 0 17px 70px 0 #000;
 }

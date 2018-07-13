@@ -17,7 +17,7 @@ function ajouterPhoto(){
 	}
 
 	var nouvelle_image = document.getElementById("inPhoto").files[0].name;
- 
+
 
 	photo.push( nouvelle_image );
 
@@ -27,4 +27,6 @@ function ajouterPhoto(){
 	{
 		$("#divPhoto").append('<img src="images/' + photo[i] + '"/>');
 	}
+
+	$("#inPhoto").hide();
 };
