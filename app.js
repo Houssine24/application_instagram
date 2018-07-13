@@ -1,12 +1,19 @@
 console.log("hello");
+$("#inPhoto").hide();
+$("#buttonAjout").hide();
+$("#vide").hide();
 
+$("#add").click(function(){
+	$("#inPhoto").show();
+	$("#buttonAjout").show();
+});
 
 
 $("#buttonAjout").click(function(){
 
 	ajouterPhoto();
 	$("#divPhoto").show();
-});
+	
 //fonction qui ajoute les photos dans le localstorage et qui les affiche pr l'user.
 function ajouterPhoto(){
 	$("#divPhoto").empty();
@@ -27,6 +34,17 @@ function ajouterPhoto(){
 	{
 		$("#divPhoto").append('<img src="images/' + photo[i] + '"/>');
 	}
-
-	$("#inPhoto").hide();
 };
+
+$("#inPhoto").hide();
+$("#buttonAjout").hide();
+});
+var photo = JSON.parse(window.localStorage.getItem("galerie"));
+if (photo == null) 
+{
+	var photo = [];
+}
+for (var i = 0; i < photo.length; i++)
+{
+	$("#divPhoto").append('<img src="images/' + photo[i] + '"/>');
+}

@@ -26,17 +26,18 @@
 				<img id="setting" src="button_setting.png">
 			</button>
 			<div id="menu" class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-				<a class="dropdown-item" href="#">Ajouter une Photo</a>
-				<a class="dropdown-item" href="#">Supprimer une Photo</a>
-				<a class="dropdown-item" href="#">Paramètres Profil</a>
+				<a id="add" class="dropdown-item" href="#">Ajouter une Photo</a>
+				<a id="del" class="dropdown-item" href="#">Supprimer une Photo</a>
+				<a id="prof" class="dropdown-item" href="#">Paramètres Profil</a>
 			</div>
 		</div>
 	</div>
-
+	
 	<input type="file" name="inPhoto" id="inPhoto" value="">
 	<button id="buttonAjout">OK</button>
+
 	<div id="divPhoto" class="img">
-		<img>
+		<img id="vide">
 	</div>
 
 	<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
